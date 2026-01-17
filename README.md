@@ -46,7 +46,7 @@ Current open-source steganography tools often suffer from three critical limitat
 
 ### Install via pip (Local Development)
 ```bash
-git clone https://github.com/your-username/stegoscribe.git
+git clone https://github.com/anshuman-sahoo1999/stegoscribe.git
 cd stegoscribe
 pip install -e .
 ```
