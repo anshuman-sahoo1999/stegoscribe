@@ -1,0 +1,23 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE settings (VS Code, Pycharm)
+.vscode/
+.idea/
+
+# Local testing images (Don't upload your test photos)
+*.jpg
+*.png
+*.jpeg
+!src/assets/*.png
