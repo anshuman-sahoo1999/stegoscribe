@@ -1,6 +1,5 @@
 # StegoScribe: Secure & Robust Image Steganography Framework
 
-[![JOSS Status](https://joss.theoj.org/papers/suggested_status_badge.svg)](https://joss.theoj.org/papers/in_review)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -10,7 +9,7 @@ Designed for researchers, students, and privacy advocates, StegoScribe bridges t
 
 ---
 
-## 🎯 Objectives & Statement of Need
+## Objectives & Statement of Need
 
 Current open-source steganography tools often suffer from three critical limitations:
 1. **Lack of Robustness:** Most tools rely on fragile LSB techniques that break under minor compression.
@@ -24,7 +23,7 @@ Current open-source steganography tools often suffer from three critical limitat
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. Hybrid Embedding Algorithms
 * **LSB Mode (Spatial):** Modifies the Least Significant Bits of RGB channels. Ideal for hiding large files or long documents in PNG images.
@@ -40,7 +39,7 @@ Current open-source steganography tools often suffer from three critical limitat
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 * Python 3.8 or higher
@@ -54,7 +53,7 @@ pip install -e .
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 StegoScribe operates via a simple Command Line Interface (CLI).
 
@@ -82,7 +81,7 @@ stegoscribe hide --method dct
 3. The system encrypts the data, embeds it, and automatically downloads the result to your `Downloads/` folder.
 4. It reports the **PSNR Score** (e.g., 52.4 dB) to verify quality.
 
-### 2. Unhiding Data (Receiver)
+### Unhiding Data (Receiver)
 
 Run the unhide command. You must know which method was used.
 
@@ -101,7 +100,7 @@ stegoscribe unhide --method dct
 
 ---
 
-## 📊 Scientific Metrics (For Researchers)
+## Scientific Metrics (For Researchers)
 
 StegoScribe calculates **PSNR (Peak Signal-to-Noise Ratio)** to measure image fidelity.
 
@@ -113,7 +112,7 @@ $$PSNR = 10 \cdot \log_{10} \left( \frac{MAX_I^2}{MSE} \right)$$
 
 ---
 
-## 🛠️ Planned Enhancements
+## Planned Enhancements
 
 * **Steganalysis Module:** Integration of Chi-Square and RS Analysis for detection.
 * **Audio Support:** Extension to `.wav` files using Parity Coding.
@@ -121,7 +120,7 @@ $$PSNR = 10 \cdot \log_{10} \left( \frac{MAX_I^2}{MSE} \right)$$
 
 ---
 
-## 👥 Authors & Affiliations
+## Authors & Affiliations
 
 * **Anshuman Sahoo** (Corresponding Author) - [ORCID]
 * **Raghunath Rout**
@@ -132,12 +131,12 @@ $$PSNR = 10 \cdot \log_{10} \left( \frac{MAX_I^2}{MSE} \right)$$
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Special thanks to the **Dept. of CSE, DRIEMS University** for computational resources.
