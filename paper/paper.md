@@ -57,7 +57,7 @@ Finally, the Extraction Pipeline reverses these operations. A critical feature o
 
 # Code Availability
 
-The source code for `StegoScribe` is available on GitHub (repository link to be added upon publication). It is distributed under the MIT License to encourage academic collaboration and modification. The package is structured to be installed via `pip`, with dependencies limited to standard scientific libraries (`numpy`, `opencv-python`, `pillow`, `cryptography`, `click`) to ensure broad compatibility across Windows, macOS, and Linux environments.
+The source code for `StegoScribe` is available on GitHub (https://github.com/anshuman-sahoo1999/stegoscribe.git). It is distributed under the MIT License to encourage academic collaboration and modification. The package is structured to be installed via `pip`, with dependencies limited to standard scientific libraries (`numpy`, `opencv-python`, `pillow`, `cryptography`, `click`) to ensure broad compatibility across Windows, macOS, and Linux environments.
 
 # Planned Enhancements
 
